@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.primary-btn{
+    background-color: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+.secondary-btn{
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 24px;
+    color: #FD6E0A;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    background: #FFF8F3;
+    margin-left: 30px;
+}
+/* banner section style */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 50px 50px 50px 200px;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 5px;
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 45px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+/* about section styles */
+.about{
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 80px;
+    padding: 136px 138px 126px 150px;
+    text-align: center;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.bio-title{
+    font-size: 20px;
+    color: #757575;
+}
+.bio-info{
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+
+/* skil section styles */
+
+.skil{
+    margin-top: 70px;
+}
+.skil-section-description{
+    padding: 10px 167px;
+}
+.skil-conteiner{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.content-box{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    width: 25%;
+}
+.content-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.content-discription{
+    color: #757575;
+    line-height: 28px;
+}
+
+/* resume section styles */
+
+.resume{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.resume-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-container{
+    display: flex;
+    gap: 15px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.resume-content{
+    padding-right: 40px;
+}
+.content-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+hr{
+    margin-top: 30px;
+}
+.custom-btn{
+    display: block;
+    margin: 0px auto;
+}
+
+
+.contact{
+    background: #FFF8F3;
+    padding: 80px 200px;
+}
+.contact-form{
+    display: flex;
+    gap: 80px;
+}
+.contact-info{
+   width: 50%; 
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+form input{
+    padding: 18px 30px;
+    width: 88%;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+}
+form textarea{
+    width: 99%;
+    border: 0;
+    margin-bottom: 30px;
+    padding: 18px 30px;
+}
